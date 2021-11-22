@@ -18,7 +18,7 @@ public class ClientTest {
     }
 
     @Test
-    public void getId() {
+    public void getId() throws Exception{
         assertEquals(client1.getId(), 3);
         assertEquals(client2.getId(), 3);
         assertEquals(client3.getId(), 3);
